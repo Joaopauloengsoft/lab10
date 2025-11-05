@@ -1,4 +1,6 @@
 package PagamentoOnline;
 
-public class MetodoPagamento {
+public interface MetodoPagamento {
+    boolean pagar(double valor);
+    String getNome();
 }

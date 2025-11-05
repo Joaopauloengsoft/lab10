@@ -1,4 +1,6 @@
 package LeitorArquivos;
 
-public class LeitorArquivo {
+public interface LeitorArquivo {
+    void lerArquivo(String caminhoArquivo);
+    String getFormato();
 }
